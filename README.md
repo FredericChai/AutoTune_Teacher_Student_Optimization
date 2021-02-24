@@ -17,4 +17,5 @@ Belowing figure describe our method:
 ![image](https://github.com/FredericChai/AutoTune_Teacher_Student_Optimization/blob/main/Picture1.png)
 
 We also implement the method on skin lesion segmentation：
+
 ![image](https://github.com/FredericChai/AutoTune_Teacher_Student_Optimization/blob/main/Picture2.png)
