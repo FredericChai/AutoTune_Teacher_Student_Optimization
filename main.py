@@ -54,9 +54,7 @@ parser.add_argument('--alpha', type=float, help='parameters to control KD')
 parser.add_argument('--temperature', type=float, help='parameters to control KD')
 # parser.add_argument('--teacher_arch', type=str, help='parameters to control KD')
 # parser.add_argument('--evaluate_only',dest = 'evaluate_only',action = 'store_true',help='if in this mode. directly load checkpoint and ')
-
 # parser.add_argument('--norm_activation',dest = 'norm_activation',action = 'store_true')
-# parser.add_argument('--filter_prune',dest = 'filter_prune',action = 'store_true')
 
 
 #load all args
@@ -318,7 +316,6 @@ def load_data(path):
 }
 
     data_dir = path
-    # testData_dir = '/mnt/HDD1/Frederic/ensemble_baseline/TestImage/'
 
     image_datasets = {
             x : datasets.ImageFolder(os.path.join(data_dir,x),
