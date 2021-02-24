@@ -1,0 +1,7 @@
+cd /mnt/HDD1/Frederic/vgg_1
+
+"""KD train"""
+python main.py --gpu_id 0 --arch resnet50 --source_checkpoint /mnt/HDD1/Frederic/BO_Tune_Engine_KD/checkpoint/resnet50_pretrained-checkpoint-epoch300/model_best.pth.tar --epoch 350 --alpha 0.35 --temperature 6
+
+
+
