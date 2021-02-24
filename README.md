@@ -14,6 +14,7 @@ you can run the code in receipes to have a quick start. The main file requires t
 2.T can make the assistant loss will pay more attention on the classes with higher logits.
 
 Belowing figure describe our method:
+
 ![image](https://github.com/FredericChai/AutoTune_Teacher_Student_Optimization/blob/main/Picture1.png)
 
 We also implement the method on skin lesion segmentation：
